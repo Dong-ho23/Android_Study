@@ -12,7 +12,7 @@ class Activity_01 : AppCompatActivity() {
         Log.d("LifeCycle", "onCreate")
 
     }
-        //액티비티 생명주기 확인
+    //액티비티 생명주기 확인
     override fun onResume() {
         Log.d("LifeCycle", "onResume")
         super.onResume()
